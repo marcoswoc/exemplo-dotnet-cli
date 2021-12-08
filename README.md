@@ -64,11 +64,11 @@ Para que um projeto possa utilizar os recursos de um outro projeto precisamos cr
 No terminal podemos usar o comando `code .` no diretório do projeto para abrir o VS Code.
 Vou deletar o arquivo Class1.cs do projeto DotnetCli.Application e mover o arquivo WeatherForecast.cs do projeto DotnetCli.WebApi para DotnetCli.Application.
 
-![imagem-1](.\img\img-1.png)
+![imagem-1](img/img-1.png)
 
 Precisamos adicionar a referência da classe WeatherForecast.cs no arquivo WeatherForecastController.cs
 
-![Imagem-2](.\img\img-2.png)
+![Imagem-2](img/img-2.png)
 
 
 O comando `dotnet build` Compila um projeto e todas as suas dependências
@@ -79,11 +79,11 @@ E por fim o comando `dotnet run` Executa o código-fonte, utilizando o parâmetr
 
     dotnet run --project .\src\DotnetCli.WebApi\
 
-![Imagem-3](.\img\img-3.png)
+![Imagem-3](img/img-3.png)
 
 Podemos acessar pelo endereço `https://localhost:[PORTA]/swagger/index.html` verifique a porta que o projeto esta rodando em seu terminal.
 
-![Imagem-4](.\img\img-4.png)
+![Imagem-4](img/img-4.png)
 
 ## Conclusão
 
