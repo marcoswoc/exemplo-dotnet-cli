@@ -1,3 +1,4 @@
+![dotnet-Cli](img/NET CLI.png)
 # Utilizando dotnet CLI para criar projetos no vscode
 
 ## Introdução 
